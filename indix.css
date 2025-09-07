@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+ }
+  .navbar{
+         display: flex;
+         align-items: center;
+         justify-content: absolute;
+         height: 80px;
+         width: 100%;
+         position:flex;
+         top: 0;
+         background: transparent;        
+         backdrop-filter: blur 15px;
+         z-index: 999;
+	    background:gray;
+
+ 
+  }
+   .navbar-container{ 
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         width: 100%;
+         padding: 0 2rem;
+         max-width: 1600px;
+ 
+   } 
+    .logo a{    
+    display:flex;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight:600;
+    color:black;
+
+    }   
+      .navbar-container .navbar-menu{
+         display: flex;
+         text-align: center;
+         gap: 1.5rem;
+         list-style: none;
+
+    }  
+       .navbar-container .navbar-menu li a{
+          text-decoration: none;
+          color: rgb(28, 26, 26);
+          font-size: 1.5rem;
+          font-weight: 500;
+          padding: 3px 20px;
+          border-radius: 20px;
+          border: 2px solid transparent;
+          transition: all 0. 7s ease;
+          white-space: no wrap;
+
+     }  
+       .navbar-container .navbar-menu li a:hover{
+          color: black;
+          background: light rgb(28, 29, 28);
+          border: 2px solid black; 
+          
+     }   
+      .nav-banner{
+           height: 100%;
+           width: 100%;
+           position: fixed;
+           
+	   
+
+}
+      .footer{
+           background-color:gray;
+           display: flex;
+           justify-content:space-between ;
+           align-items: center;
+           padding: 1px 30px;
+           position: fixed;
+           bottom:0;
+           width: 100%;
+           font-size: 14px;
+           margin-top: 686px;
+           
+      } 
+      .social-icons{
+           display: flex;
+           gap:10px;
+
+}
+
+.footer-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:rgb(24, 23, 23);
+    font-weight:100;
+}
+.social-icons img{
+    width:25px;
+    height: 40px;
+    object-fit: contain;
+    background:transparent;
+
+}
+
+        .about-container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: rgb(228, 231, 233);
+            padding: 20px;
+            border: 5px solid #ccc;
+            border:10;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: justify;
+	       font-size:20px;
+
+	 
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        
+
+
+
+
+
+
+      

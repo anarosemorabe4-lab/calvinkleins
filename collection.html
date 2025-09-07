@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products</title>
+<link rel="stylesheet" type="text/css"href="indix.css">
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        background: #f4f4f4;
+        
+    }
+
+    nav {
+        display: flex;
+        justify-content:left ;
+        background: rgb(230, 201, 205)
+    }
+
+    nav button {
+        background: none;
+        border: none;
+        color: rgb(22, 21, 21);
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 1px;
+    
+        
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .product {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        box-sizing: border-box;
+        height: 100%;
+    
+    }
+
+    .product img {
+        max-width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .product h3 {
+        font-size: 20px;
+        margin: 10px 0 5px;
+    }
+
+    .price {
+        font-size: 14px;
+        font-weight: bold;
+        color: #e63946;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
+
+    .buttons button {
+        padding: 8px 12px;
+        margin: 5px 3px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    	
+</style>
+</head>
+<body>
+
+        <nav class="navbar">
+               <div class="navbar-container">
+                     <div class ="logo"><a href ="#">Calvin Klein</i></a></div>
+                       <ul class="navbar-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="About Us.html">About Us</a></li>
+                                 <li><a href="Products.html">Products</a></li>
+                                <li><a href="Collection.html">Collection</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                              
+
+                    </ul>
+           </div>  
+  </nav>
+
+<nav>
+    <button onclick="showCategory('collection')">Collection</button>
+  
+</nav>
+
+<div class="container">
+
+    <div class="products" id="collection">
+        <div class="product">
+            <img src="products\shirt1.jpeg" alt="Product">
+            <h3>jacket</h3>
+            <p class="price">₱599</p>
+            <div class="buttons">
+            </div>
+        </div>
+            <div class="product">
+            <img src="products\shirt2.jpeg" alt="Product">
+            <h3>T-Shirt</h3>
+            <p class="price">₱299</p>
+            <div class="buttons">
+            </div>
+        </div>
+    <div class="product">
+            <img src="products\shirt3.jpeg" alt="Product">
+            <h3>Jacket</h3>
+            <p class="price">₱599</p>
+            <div class="buttons">
+            </div>
+        </div>
+    <div class="product">
+            <img src="products\shirt4.jpeg" alt="Product">
+            <h3>Polo</h3>
+            <p class="price">₱590</p>
+            <div class="buttons">
+            </div>
+        </div>
+      <div class="product">
+            <img src="products\shirt5.jpeg" alt="Product">
+            <h3>Crop-top</h3>
+            <p class="price">₱400</p>
+            <div class="buttons">
+            </div>
+        </div>
+            <div class="product">
+            <img src="products\shirt6.jpeg" alt="Product">
+            <h3>Dress</h3>
+            <p class="price">₱1,599</p>
+            <div class="buttons">
+            </div>
+        </div>
+    <div class="product">
+            <img src="products\shirt7.jpeg" alt="Product">
+            <h3>Mini Dress</h3>
+            <p class="price">999</p>
+            <div class="buttons">
+            </div>
+        </div>
+    <div class="product">
+            <img src="products\shirt8.jpeg" alt="Product">
+            <h3>T-shirt</h3>
+            <p class="price">499</p>
+            <div class="buttons">
+            </div>
+        </div>
+      <div class="product">
+            <img src="products\shirt9.jpeg" alt="Product">
+            <h3>Jacket</h3>
+            <p class="price">₱799</p>
+            <div class="buttons">
+            </div>
+        </div>
+            <div class="product">
+            <img src="products\shirt10.jpg" alt="Product">
+            <h3>Hoodie Shirt</h3>
+            <p class="price">₱499</p>
+            <div class="buttons">
+            </div>
+        </div>
+        <div class="product">
+            <img src="products\short5.jpg" alt="Product">
+            <h3>Pants</h3>
+            <p class="price">₱499</p>
+            <div class="buttons">
+            </div>
+        </div>
+ <div class="product">
+            <img src="products\short6.jpeg" alt="Product">
+            <h3>Short</h3>
+            <p class="price">₱200</p>
+            <div class="buttons">
+            </div>
+        </div>
+    <div class="product">
+            <img src="products\short7.jpg" alt="Product">
+            <h3>Pants</h3>
+            <p class="price">₱499</p>
+            <div class="buttons">
+            </div>
+        </div>
+ <div class="product">
+            <img src="products\short8.jpeg" alt="Product">
+            <h3>Short</h3>
+            <p class="price">₱299</p>
+            <div class="buttons">
+            </div>
+        </div>
+    <div class="product">
+            <img src="products\short9.jpeg" alt="Product">
+            <h3>Short</h3>
+            <p class="price">₱299</p>
+            <div class="buttons">
+            </div>
+        </div>
+        <div class="product">
+            <img src="footwear\shoes8.jpg" alt="Product">
+            <h3>Picio Monogram Sneaker</h3>
+            <p class="price">₱2,590</p>
+            <div class="buttons">
+            </div>
+        </div>
+  <div class="product">
+            <img src="footwear\shoes9.jpg" alt="Product">
+            <h3>Boxford Sneaker</h3>
+            <p class="price">₱2,559</p>
+            <div class="buttons">
+            </div>
+        </div>
+   <div class="product">
+            <img src="footwear\shoes10.jpg" alt="Product">
+            <h3>Sneaker</h3>
+            <p class="price">₱2,699</p>
+            <div class="buttons">
+            </div>
+        </div>
+        <div class="product">
+            <img src="footwear\shoes13.jpg" alt="Product">
+            <h3>Sneaker</h3>
+            <p class="price">₱2,589</p>
+            <div class="buttons">
+            </div>
+        </div>
+   <div class="product">
+            <img src="footwear\shoes14.jpg" alt="Product">
+            <h3>Sneaker</h3>
+            <p class="price">₱2,599</p>
+            <div class="buttons">
+            </div>
+        </div>
+   <div class="product">
+            <img src="footwear\shoes15.jpg" alt="Product">
+            <h3>Sneaker</h3>
+            <p class="price">₱2,599</p>
+            <div class="buttons">
+            </div>
+        </div>
+   <div class="product">
+            <img src="footwear\shoes16.jpeg" alt="Product">
+            <h3>Sneaker</h3>
+            <p class="price">₱2,599</p>
+            <div class="buttons">
+            </div>
+        </div>
+  <div class="product">
+            <img src="footwear\shoes17.jpg" alt="Product">
+            <h3>Black Shoes</h3>
+            <p class="price">₱1,000</p>
+            <div class="buttons">
+            </div>
+        </div>
+   <div class="product">
+            <img src="footwear\shoes11.jpeg" alt="Product">
+            <h3>Sneaker</h3>
+            <p class="price">₱2,499</p>
+            <div class="buttons">
+            </div>
+        </div>
+   <div class="product">
+            <img src="footwear\shoes12.jpg" alt="Product">
+            <h3>Sneaker</h3>
+            <p class="price">₱2,579</p>
+            <div class="buttons">
+            </div>
+        </div>
+        <div class="product">
+            <img src="footwear\heel1.jpg"alt="Product">
+            <h3>Sandals</h3>
+            <p class="price">₱1,180</p>
+            <div class="buttons">
+       </div>
+    </div>
+   <div class="product">
+            <img src="footwear\heel2.jpg"alt="Product">
+            <h3>Sandals</h3>
+            <p class="price">₱1,280</p>
+            <div class="buttons">
+       </div>
+    </div>
+   <div class="product">
+            <img src="footwear\heel3.jpg"alt="Product">
+            <h3>Sandals</h3>
+            <p class="price">₱380</p>
+            <div class="buttons">
+       </div>
+    </div>
+    <div class="product">
+        <img src="fragrance\ck6.jpg"alt="Product">
+        <h3>Eternity Now</h3>
+        <p class="price">₱600</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src="fragrance\ck7.jpg"alt="Product">
+        <h3>Eternity Moment</h3>
+        <p class="price">₱600</p>
+        <div class="buttons">
+    </div>
+</div>
+   <div class="product">
+        <img src="fragrance\ck8.jpg"alt="Product">
+        <h3>CkIN2U</h3>
+        <p class="price">₱700</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src="fragrance\ck9.jpg"alt="Product">
+        <h3>Ck Shock</h3>
+        <p class="price">₱650</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src="fragrance\ck10.jpg"alt="Product">
+        <h3>Ck Shock</h3>
+        <p class="price">₱650</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src="fragrance\ck11.jpg"alt="Product">
+        <h3>Defy</h3>
+        <p class="price">₱550</p>
+        <div class="buttons">
+    </div>
+</div>
+   <div class="product">
+        <img src="fragrance\ck12.jpg"alt="Product">
+        <h3>Eternity</h3>
+        <p class="price">₱600</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src="fragrance\ck13.jpg"alt="Product">
+        <h3>Defy</h3>
+        <p class="price">₱550</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src="fragrance\ck14.jpg"alt="Product">
+        <h3>Defy</h3>
+        <p class="price">₱550</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src="fragrance\ck15.jpg"alt="Product">
+        <h3>Eternity</h3>
+        <p class="price">₱550</p>
+        <div class="buttons">
+    </div>
+</div>
+  <div class="product">
+        <img src="fragrance\ck16.jpeg"alt="Product">
+        <h3>Obsession</h3>
+        <p class="price">₱599</p>
+        <div class="buttons">
+    </div>
+</div>
+  <div class="product">
+        <img src="fragrance\ck17.jpeg"alt="Product">
+        <h3>Ck Be</h3>
+        <p class="price">₱699</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src="fragrance\ck.jpeg"alt="Product">
+        <h3>Ck Everyone</h3>
+        <p class="price">₱699</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src="fragrance\ck1.jpeg"alt="Product">
+        <h3>Ck One</h3>
+        <p class="price">₱699</p>
+        <div class="buttons">
+    </div>
+</div>
+    <div class="product">
+        <img src= "jewerly\watch1.jpg"alt="Product">
+        <h3> Watch</h3>
+        <p class="price">₱8,499</p>
+        <div class="buttons">               
+    </div>
+    </div>
+<div class="product">
+        <img src= "jewerly\watch2.jpg"alt="Product">
+        <h3> Watch</h3>
+        <p class="price">₱8,699</p>
+        <div class="buttons">               
+        </div>
+    </div>
+<div class="product">
+        <img src= "jewerly\watch3.jpg"alt="Product">
+        <h3> Watch</h3>
+        <p class="price">₱7,590</p>
+        <div class="buttons">               
+        </div>
+    </div>
+<div class="product">
+        <img src= "jewerly\watch4.jpg"alt="Product">
+        <h3> Watch</h3>
+        <p class="price">₱8,599</p>
+        <div class="buttons">               
+        </div>
+    </div>
+<div class="product">
+        <img src= "jewerly\watch5.jpg"alt="Product">
+        <h3> Watch</h3>
+        <p class="price">₱7,490</p>
+        <div class="buttons">               
+        </div>
+    </div>
+<div class="product">
+        <img src= "jewerly\watch6.jpg"alt="Product">
+        <h3> Watch</h3>
+        <p class="price">₱8,489</p>
+        <div class="buttons">               
+        </div>
+    </div>
+<div class="product">
+        <img src= "jewerly\watch7.jpg"alt="Product">
+        <h3> Watch</h3>
+        <p class="price">₱7,799</p>
+        <div class="buttons">               
+        </div>
+    </div>
+    <div class="product">
+        <img src="jewerly\earing.jpeg" alt="Product">
+        <h3> Earings</h3>
+        <p class="price">₱2,000</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\earing1.jpg" alt="Product">
+        <h3> Earings</h3>
+        <p class="price">₱2,000</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\earing2.jpg" alt="Product">
+        <h3> Earings</h3>
+        <p class="price">₱2,500</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\earing3.jpg" alt="Product">
+        <h3> Earings</h3>
+        <p class="price">₱2,400</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\earing4.jpg" alt="Product">
+        <h3> Earings</h3>
+        <p class="price">₱3,000</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\lace1.jpg" alt="Product">
+        <h3> Neck Lace</h3>
+        <p class="price">₱4,000</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\lace2.jpg" alt="Product">
+        <h3> Neck Lace</h3>
+        <p class="price">₱2,500</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\lace3.jpg" alt="Product">
+        <h3> Neck Lace</h3>
+        <p class="price">₱3,300</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\lace4.jpeg" alt="Product">
+        <h3> Neck Lace</h3>
+        <p class="price">₱3,900</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\lace5.jpeg" alt="Product">
+        <h3> Neck Lace</h3>
+        <p class="price">₱2,990</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\bracelet.jpeg" alt="Product">
+        <h3> Bracelet</h3>
+        <p class="price">₱800</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\bracelet1.jpeg" alt="Product">
+        <h3> Bracelet</h3>
+        <p class="price">₱1,500</p>
+        <div class="buttons">
+    </div>     
+    </div>
+    <div class="product">
+        <img src="jewerly\bracelet2.jpg" alt="Product">
+        <h3> Bracelet</h3>
+        <p class="price">₱1,000</p>
+        <div class="buttons">
+    </div>     
+</div>    
+    </div>
+
+<script>
+    function showCategory(category) {
+        let categories = ["collection"];
+        categories.forEach(cat => {
+            document.getElementById(cat).style.display = (cat === category) ? "grid" : "none";
+        });
+    }
+</script>
+<footer>
+    <div class ="footer">
+ <div class ="footer-text">This website is for project purposes only</div>
+ <div class ="footer-text">&copy;2025 Calvin Klein.All rights reserved</div>
+ <div class ="social-icons">
+     <a href ="https://wwww.facebook.com/prin.cess.858911"><img src="products\fb.jpeg" alt=""  class = "social-icons "></a>
+     <a href ="https://wwww.instagram.com/princess_melayo?igsh=aG4xaWk2bzd6b2M5"><img src ="products\ig.jpeg"alt ="" class = "imgI"></a>
+      <a href ="https://wwww.youtube.com"/@Princesshikari-x6n"><img src ="products\yt.jpg" alt="" class = "imgy"></a>
+ </div>
+ </div>
+  </footer>
+</body>
+</html>

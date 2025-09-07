@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+  body{
+
+         font-family: 'Times New Roman', Times, serif;
+         min-height: 90vh;
+         background-color: white;
+         background-position: absolute;
+         background-size: cover;
+         position: center;
+         font-weight: 300;
+
+    
+ }
+  .navbar{
+         display: flex;
+         align-items: center;
+         justify-content: absolute;
+         height: 80px;
+         width: 100%;
+         position: fixed;
+         top: 0;
+         background: transparent;
+        
+         backdrop-filter: blur 15px;
+         z-index: 999;
+	background:gray;
+
+ 
+  }
+   .navbar-container{ 
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         width: 100%;
+         padding: 0 2rem;
+         max-width: 1600px;
+ 
+   } 
+    .logo a{    
+    display:flex;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight:600;
+    color:hsl(0, 0%, 3%);
+
+    }   
+      .navbar-container .navbar-menu{
+         display: flex;
+         text-align: center;
+         gap: 1.5rem;
+         list-style: none;
+
+    }  
+       .navbar-container .navbar-menu li a{
+          text-decoration: none;
+          color: black;
+          font-size: 1.5rem;
+          font-weight: 500;
+          padding: 3px 20px;
+          border-radius: 20px;
+          border: 2px solid transparent;
+          transition: all 0. 7s ease;
+          white-space: no wrap;
+
+     }  
+       .navbar-container .navbar-menu li a:hover{
+          color: #162530;
+          background: light green;
+          border: 2px solid black; 
+          
+     }   
+      .nav-banner{
+           height: 650px;
+           width: 1350px;
+           position: fixed;
+	   
+
+}
+      .footer{
+           background-color:rgba(162, 160, 154, 0.8);
+           display: flex;
+           justify-content:space-between ;
+           align-items: center;
+           padding: 1px 30px;
+           position: fixed;
+           bottom:0;
+           width: 100%;
+           font-size: 14px;
+           margin-top: 686px;
+           
+      } 
+      .social-icons{
+           display: flex;
+           gap:10px;
+           background: transparent;
+
+}
+
+.footer-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:rgb(22, 21, 21);
+    font-weight:100;
+}
+.social-icons img{
+    width:30px;
+    height: 49px;
+    object-fit: contain;
+    background:transparent;
+
+}
+
